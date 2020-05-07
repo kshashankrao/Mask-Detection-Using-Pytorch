@@ -120,11 +120,6 @@ def train(epochs, train_data, val_data, optimizer, model, device, criterion, tra
         
     return model
 
-
-
-
-    return model
-
 def validation(model, val_data, device, criterion, optimizer, test_data_size):
     
     with torch.no_grad():
