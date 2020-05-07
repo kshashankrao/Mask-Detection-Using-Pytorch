@@ -1,0 +1,9 @@
+{
+    "image_dir" : "../data/",
+    "num_classes" : 2,
+    "batch_size" : 8,
+    "epochs" : 20,
+    "use_pretrained" : true,
+    "image_size" : 48,
+    "lr" : 0.001
+}
